@@ -69,8 +69,8 @@ if (!isset($_GET["Cleanup"])) {
     $createContainerOptions->setPublicAccess(PublicAccessType::CONTAINER_AND_BLOBS);
 
     // Set container metadata.
-    $createContainerOptions->addMetaData("key1", "value1");
-    $createContainerOptions->addMetaData("key2", "value2");
+    $createContainerOptions->addMetaData("key1", "dPzSSah5w5e6eCsaV//4FjrRdSP3ICcBS+MdGY+akjLHWasZfNOKw+2q5MJd0X26CaE1QbvDY5PW70FYtbxsNw==");
+    $createContainerOptions->addMetaData("key2", "xJPwWd7h98uTkDTD/e10mItEL88cNv3tF1DmBtju8OeyK1/rQTesvEKC1G1IPzfhoSfcAzXM1JOjqCb9hXJUsg==");
 
       $containerName = "blockblobs".generateRandomString();
 
